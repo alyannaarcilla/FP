@@ -52,30 +52,17 @@ form h2 {
     position: relative;
     width: 400px;
     margin-bottom: 40px;
+    text-transform: uppercase;
     
 }
 
-.inputBox input {
-    position: relative;
-    width: 100%;
-    padding: 12px 0;
-    background: transparent;
-    border: none;
-    text-transform: uppercase;
-    border-bottom: 2px solid #fff;
-    outline: none;
-    color: #fff;
-    letter-spacing: 0.15em;
-    font-size: 0.95em;
-    transition: border-color 0.3s;
-}
+.inputBox input,
 .inputBox textarea {
     position: relative;
     width: 100%;
     padding: 12px 0;
     background: transparent;
     border: none;
-    text-transform: none;
     border-bottom: 2px solid #fff;
     outline: none;
     color: #fff;
