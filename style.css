@@ -71,6 +71,10 @@ form h2 {
     transition: border-color 0.3s;
 }
 
+.inputBox textarea[name="message"] {
+    text-transform: uppercase;
+}
+
 .inputBox input:focus,
 .inputBox textarea:focus {
     border-bottom: 2px solid var(--ctr);
